@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'screens/auth/login_screen.dart';
+import 'screens/splash_screen.dart'; // import the splash screen
 import 'firebase_options.dart';
 
 void main() async {
@@ -17,7 +17,8 @@ class GatherUpApp extends StatelessWidget {
     return MaterialApp(
       title: 'GatherUp',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const LoginScreen(),
+      debugShowCheckedModeBanner: false, // removes the debug banner
+      home: const SplashScreen(), // set splash screen as the initial screen
     );
   }
 }
