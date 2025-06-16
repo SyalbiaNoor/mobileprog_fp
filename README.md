@@ -47,3 +47,4 @@ database (Firebase). The home page also contains of daily motivational quotes th
 
 5025221075 - Fawwaz Abdulloh Al-Jawi:
 - Provided ideas and discussed about project plans
+- Created simple profile page
