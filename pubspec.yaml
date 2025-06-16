@@ -1,0 +1,42 @@
+name: gatherup
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core et authentification
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+
+  # Firestore pour stocker les journaux
+  cloud_firestore: ^4.15.5
+
+  # Storage pour les images (album)
+  firebase_storage: ^11.6.5
+
+  # Pour les requêtes HTTP (citations)
+  http: ^0.13.6
+
+  # Pour sélectionner des images (album)
+  image_picker: ^1.0.7
+
+  video_player: ^2.8.1
+
+  # Icônes iOS
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
