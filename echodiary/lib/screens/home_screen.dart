@@ -5,6 +5,8 @@ import '../../models/diary_model.dart';
 import '../../widgets/diary_card.dart';
 import '../../widgets/quote_widget.dart';
 import 'diary/diary_form_screen.dart';
+import 'profile_screen.dart';
+import 'videostory_screen.dart';
 import 'auth/login_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -32,6 +34,26 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Welcome"),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.video_collection),
+            tooltip: 'Video',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const VideoStoryScreen()),
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.person),
+            tooltip: 'Profile',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ProfileScreen()),
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () => _signOut(context),
