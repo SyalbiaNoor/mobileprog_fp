@@ -29,6 +29,7 @@ database (Firebase). The home page also contains of daily motivational quotes th
 - The UI/UX design of the app is not customized and only using default flutter design
 - Flutter's original splash screen still shows up
 - Images are unable to be generated when uploaded to albums
+- Log out function is still error
 
 **Member Contributions**
 
@@ -48,4 +49,4 @@ database (Firebase). The home page also contains of daily motivational quotes th
 5025221075 - Fawwaz Abdulloh Al-Jawi:
 - Provided ideas and discussed about project plans
 - Created simple profile page
-- Createed simple story page
+- Created simple story page
