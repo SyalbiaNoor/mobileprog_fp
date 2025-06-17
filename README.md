@@ -13,17 +13,11 @@ database (Firebase). The home page also contains of daily motivational quotes th
 
 **Screenshots**
 
-![image](https://github.com/user-attachments/assets/32c01adc-3951-4ce3-8052-51f538bddf2a)
+![image](https://github.com/user-attachments/assets/32c01adc-3951-4ce3-8052-51f538bddf2a) ![image](https://github.com/user-attachments/assets/208c1a75-b379-437e-9ce4-6ae7cda4499b)
 
-![image](https://github.com/user-attachments/assets/208c1a75-b379-437e-9ce4-6ae7cda4499b)
+![image](https://github.com/user-attachments/assets/716aa00a-0c6e-4e89-b0ec-383b658da9bf) ![image](https://github.com/user-attachments/assets/02fda2f9-20d5-4d1c-b6df-5eb4b0d26da3)
 
-![image](https://github.com/user-attachments/assets/716aa00a-0c6e-4e89-b0ec-383b658da9bf)
-
-![image](https://github.com/user-attachments/assets/02fda2f9-20d5-4d1c-b6df-5eb4b0d26da3)
-
-![image](https://github.com/user-attachments/assets/be4bdd35-806e-4db3-80a1-366436f5c3e4)
-
-![image](https://github.com/user-attachments/assets/eb504e9b-05c3-4381-a771-f0cca05771c2)
+![image](https://github.com/user-attachments/assets/be4bdd35-806e-4db3-80a1-366436f5c3e4) ![image](https://github.com/user-attachments/assets/eb504e9b-05c3-4381-a771-f0cca05771c2)
 
 **Limitations:**
 - The UI/UX design of the app is not customized and only using default flutter design
