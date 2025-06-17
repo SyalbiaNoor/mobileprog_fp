@@ -23,25 +23,24 @@ database (Firebase). The home page also contains of daily motivational quotes th
 
 ![image](https://github.com/user-attachments/assets/be4bdd35-806e-4db3-80a1-366436f5c3e4)
 
-![image](https://github.com/user-attachments/assets/6ba73b9e-9b0e-4fac-8b1c-3b837acce557)
+![image](https://github.com/user-attachments/assets/eb504e9b-05c3-4381-a771-f0cca05771c2)
 
 **Limitations:**
 - The UI/UX design of the app is not customized and only using default flutter design
 - Flutter's original splash screen still shows up
-- Images are unable to be generated when uploaded to albums
 - Log out function is still error
 
 **Member Contributions**
 
 5999241026 - Ariel, Claude, Patrick, Chambaz:
 - Created and connected firebase
-- Researched and connected API
+- Researched and connected quotes API
 - Created user authorization page
 - Created home page and diary CRUD
 
 5025221067 - Syalbia Noor Rahmah:
 - Provided ideas and discussed about project plans
-- Created use case diagram
+- Researched and connected image API
 - Created albums and images CRUD
 - Created simple splash screen
 - Wrote down README report
@@ -49,4 +48,4 @@ database (Firebase). The home page also contains of daily motivational quotes th
 5025221075 - Fawwaz Abdulloh Al-Jawi:
 - Provided ideas and discussed about project plans
 - Created simple profile page
-- Created simple story page
+- Created simple story page CRUD
