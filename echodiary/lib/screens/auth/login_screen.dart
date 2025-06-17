@@ -27,7 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Erreur : $e')),
+        SnackBar(content: Text('Error : $e')),
       );
     }
   }
@@ -35,21 +35,21 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Connexion')),
+      appBar: AppBar(title: const Text('My Diary')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             TextField(controller: emailController, decoration: const InputDecoration(labelText: 'Email')),
-            TextField(controller: passwordController, obscureText: true, decoration: const InputDecoration(labelText: 'Mot de passe')),
+            TextField(controller: passwordController, obscureText: true, decoration: const InputDecoration(labelText: 'Password')),
             const SizedBox(height: 20),
-            ElevatedButton(onPressed: login, child: const Text('Se connecter')),
+            ElevatedButton(onPressed: login, child: const Text('Log In')),
             TextButton(
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (_) => const SignupScreen()));
               },
-              child: const Text("Créer un compte"),
+              child: const Text("Sign Up"),
             )
           ],
         ),
